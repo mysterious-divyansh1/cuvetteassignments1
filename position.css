@@ -1,0 +1,113 @@
+* {
+    font-family: Inter;
+    margin: 0;
+  }
+  * {
+    font-family: Inter;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #ffcd9e;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  .head {
+    height: 64vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .headleft {
+    width: 46%;
+    max-height: 146%;
+    padding-top: 3%;
+  }  
+  .headright {
+    max-width: 100%;
+  }
+  .headright img {
+    max-width: 100%;
+    height: 65vh;
+    width: 39vw;
+  }
+  .headleft h1 {
+    line-height: 145%;
+    width: 70%;
+    font-size: 2vw;
+    font-weight: 670;
+    margin-bottom: 2%;
+  }
+  .headleft p {
+    text-align: left;
+    width: 54%;
+    font-size: 1.04vw;
+    line-height: 140%;
+    font-weight: 500;
+    margin-bottom: 3%;
+  }
+  .headleft h3 {
+    font-size: 1.2vw;
+    margin-bottom: 4.5%;
+    font-weight: 800;
+  }
+  .headleft input {
+    width: 17vw;
+    height: 5vh;
+    font-size: 0.9vw;
+    font-weight: 600;
+    padding-left: 3%;
+    border: 0.5vh solid #000000;
+    border-radius: 1%;
+    margin-bottom: 4%;
+    border-radius: 8px;
+    margin-right: 1.1%;
+  }
+  
+  .headleft button {
+    height: 5.7vh;
+    width: 9.5vw;
+    font-size: 0.9vw;
+    font-weight: 600;
+    background-color: #282828;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  #p {
+    font-size: 0.7vw;
+    color: #ffffff;
+    margin-left: 5.2%;
+    font-weight: 500;
+  }
+  .footer {
+    height: 36vh;
+    background-color: #282828;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  ul li {
+    list-style: none;
+    margin-bottom: 10%;
+    font-size: 1vw;
+    font-weight: 400;
+  }
+  .footerright {
+    margin-top: 3.5%;
+    text-align: end;
+    max-width: 50vw;
+    margin-right: 17%;
+  }
+  .footerleft {
+    margin-top: 3.5%;
+    max-width: 50vw;
+    margin-left: 7%;
+  }
+  ul .liimage{
+    margin-bottom: 24%;
+  }
